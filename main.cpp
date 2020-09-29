@@ -48,6 +48,7 @@ int main()
 	if ( ok == 0 ) cout << "Король не был здесь" << endl;
 	cout << "Печать координат точек, через которые проходил король" << endl;
 	printList ( head );
+	delete head;
 	return 0;
 }
 
